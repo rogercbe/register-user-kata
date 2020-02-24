@@ -10,16 +10,16 @@ As a User I want to register to the platform providing an email and password.
 - The password should meet the security requirements:
   - Have more than 8 characters
   - Contains an underscore
-- The user Id should be random
-- The email should be valid email
-- The email cannot be used by other user
-- A welcome email is sent
+- The user Id should be random and unique
+- The email should be a valid email
+- The email cannot be used by another user
+- A welcome email is sent to the newly registered user
 
 ## Remember
 - Write a failing test
 - Write the minimum amount of code to make it pass
 - Try to refactor the code
 
-## Authors
+## Credits to
 Luis Rovirosa [@luisrovirosa](https://www.twitter.com/luisrovirosa)
 Jordi Anguela [@jordianguela](https://www.twitter.com/jordianguela)

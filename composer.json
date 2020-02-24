@@ -4,13 +4,12 @@
         "php": "^7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7",
-        "infection/infection": "^0.12.2"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
-            "UserRegistration\\": "src",
-            "UserRegistration\\Tests\\": "tests"
+            "Mediquo\\": "src",
+            "Mediquo\\Tests\\": "tests"
         }
     }
 }
